@@ -42,6 +42,8 @@ h3 { text-align:center; font-size:2rem; margin-bottom:2.5rem; }
 .card p { color:#4b5563; }
 .dark .card p { color:#9ca3af; }
 
+.center{text-align: center;}
+
 /* Contact Buttons */
 .contact-buttons {
   display:flex;
