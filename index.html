@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>June LauYH Portfolio</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="container">
+    <h1>June LauYH</h1>
+    <div>
+      <button class="icon-button" id="darkToggle">🌞</button>
+      <a href="#contact" class="icon-button">✉️</a>
+      <a href="https://github.com/june0612-beep" target="_blank" class="icon-button">🐱</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h2>Data Analyst • Data Engineer • Data Analytics Engineer</h2>
+    <p>
+      Aspiring data professional building dashboards, data pipelines,
+      and clean reporting systems using SQL, Python, and BI tools.
+    </p>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="container">
+    <h3>Technical Skills</h3>
+    <div class="grid">
+      <div class="card">
+        <h4>Data Analyst</h4>
+        <p>SQL, Excel, Tableau, Power BI, Python (Pandas, Matplotlib)</p>
+      </div>
+      <div class="card">
+        <h4>Data Engineer</h4>
+        <p>ETL Concepts, Data Cleaning, Databases, Git, APIs</p>
+      </div>
+      <div class="card">
+        <h4>Analytics Engineer</h4>
+        <p>Data Modeling, KPI Reporting, Dashboard Automation</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="container center">
+    <h3>Let’s Connect</h3>
+    <p>Open to Data Analyst, Data Engineer, and Analytics roles.</p>
+
+  <div class="contact-buttons">
+    <!-- Email (Gmail Web - Always Works) -->
+    <a href="https://mail.google.com/mail/?view=cm&to=lauyihui0613@gmail.com" 
+       target="_blank" 
+       class="btn">
+       📧 Email Me
+    </a>
+
+    <!-- WhatsApp -->
+    <a href="https://wa.me/60169684455" 
+       target="_blank" 
+       class="btn whatsapp">
+       💬 WhatsApp
+    </a>
+  </div>
+</section>
+
+  <!-- Footer -->
+  <footer>
+    © 2026 June LauYH • Built with HTML & CSS
+  </footer>
+
+  <!-- Script -->
+  <script>
+    const darkToggle = document.getElementById('darkToggle');
+
+    darkToggle.addEventListener('click', () => {
+      document.body.classList.toggle('dark');
+      darkToggle.textContent =
+        document.body.classList.contains('dark') ? '🌙' : '🌞';
+    });
+  </script>
+
+</body>
+</html>
